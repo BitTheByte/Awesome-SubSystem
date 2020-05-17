@@ -1,5 +1,6 @@
 # Awesome SubSystem
-This is my personal configuration as an alternative for using WSL 2 which currently requires Hyper-V to be enabled needless to say that Hyper-V impacts the whole system performance
+This is my personal configuration as an alternative for using WSL 2 which currently requires Hyper-V to be enabled needless to say that Hyper-V impacts the whole system performance  
+  
 ![](screenshots/final.png)
 
 # Requirements 
@@ -19,6 +20,7 @@ After installing the distro and vmware tools:-
 2) Navigate to VM > Settings > Options > Shared Folders
 
 ![](screenshots/vmware.png)
+
 3) Enable shared folders and click Apply
 
 ## 2. Get guest machine IP
@@ -72,5 +74,7 @@ Use the following commands to start VMware from WSL1
 
 # Done
 Now you're ready to go you can easily access the VM or WSL1 from the terminal
-![](screenshots/access.png)
+
+![](screenshots/access.png)  
+
 You can pretty much use it as WSL2 as it could access local drives with the benefit of not using Hyper-V
